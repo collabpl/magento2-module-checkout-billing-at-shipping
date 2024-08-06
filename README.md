@@ -3,7 +3,7 @@
 The Collab_CheckoutBillingAtShipping module allows You to move the billing address form just below the shipping address form on the checkout page.
 
 ## Configuration
-You can configure the module in the admin panel under `Stores > Configuration > Collab Extensions > Checkout Billing At Shipping`.
+You can configure the module in the admin panel under `Stores > Configuration > Collab Extensions > Checkout Configuration`.
 
 | Tab     | Config Field                                | Description                                                                                                                            |
 |---------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
