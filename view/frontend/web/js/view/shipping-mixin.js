@@ -30,7 +30,7 @@ define([
             },
             renderBillingAtShipping: window.checkoutConfig.collab.checkout.billing_at_shipping.move || false,
 
-            setShippingInformation: () => {
+            setShippingInformation: function() {
                 if (!this.renderBillingAtShipping) {
                     this._super();
                     return;
