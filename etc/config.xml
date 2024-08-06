@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Collab CheckoutBillingAtShipping for Magento
+ *
+ * @author      Marcin Jędrzejewski <m.jedrzejewski@collab.pl>
+ * @copyright   Copyright 2024 Collab
+ * @license     MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <collab_checkout_configuration>
+            <billing_at_shipping>
+                <move>0</move>
+            </billing_at_shipping>
+        </collab_checkout_configuration>
+    </default>
+</config>

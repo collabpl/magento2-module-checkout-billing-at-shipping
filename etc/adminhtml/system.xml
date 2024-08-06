@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Collab CheckoutBillingAtShipping for Magento
+ *
+ * @author      Marcin Jędrzejewski <m.jedrzejewski@collab.pl>
+ * @copyright   Copyright 2024 Collab
+ * @license     MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="collab_checkout_configuration" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="billing_at_shipping" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Checkout Billing At Shipping</label>
+                <field id="move" translate="label" type="select" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Move Billing Below Shipping</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Should billing address form be shown under shipping address form at 1st checkout step</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

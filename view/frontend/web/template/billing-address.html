@@ -1,0 +1,22 @@
+<!--
+/**
+ * Collab CheckoutBillingAtShipping for Magento
+ *
+ * @author      Marcin Jędrzejewski <m.jedrzejewski@collab.pl>
+ * @copyright   Copyright 2024 Collab
+ * @license     MIT
+ */
+-->
+<div id="checkout-step-billing" class="step-content"  data-role="content">
+    <div class="billing-address-same-as-shipping-block field choice" data-bind="visible: canUseShippingAddress()">
+        <input type="checkbox" name="billing-address-same-as-shipping"
+               data-bind="checked: isAddressSameAsShipping, click: useShippingAddress, attr: {id: 'billing-address-same-as-shipping'}"/>
+        <label data-bind="attr: {for: 'billing-address-same-as-shipping'}">
+            <span data-bind="i18n: 'My billing and shipping address are the same'"></span>
+        </label>
+    </div>
+    <fieldset class="fieldset form-shipping-address">
+        <!-- ko template: 'Collab_CheckoutBillingAtShipping/billing-address/list' --><!-- /ko -->
+        <!-- ko template: 'Collab_CheckoutBillingAtShipping/billing-address/form' --><!-- /ko -->
+    </fieldset>
+</div>
