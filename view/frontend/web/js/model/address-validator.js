@@ -63,7 +63,7 @@ define([
                 return true;
             }
 
-            let selectedAddress = document.querySelector(billingAddress().addressSelectSelector).value;
+            let selectedAddress = document.querySelector(billingAddress().addressSelectSelector)?.value;
             if(selectedAddress) {
                 return addressList.some(addressFromList => {
                     if (selectedAddress == addressFromList.customerAddressId) { //eslint-disable-line eqeqeq
