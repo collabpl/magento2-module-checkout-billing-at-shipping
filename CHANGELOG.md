@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+### Changed
+
+## 1.0.1 - 2024-08-17
+### Added
 - Grunt config with task for source js files minification
 ### Changed
 - JS files are from now on uglified
@@ -15,5 +19,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[unreleased]: https://github.com/collabpl/magento2-module-recaptcha-page-speed-improvement/releases/tag/1.0.0...HEAD
-[1.0.0]: https://github.com/collabpl/magento2-module-recaptcha-page-speed-improvement/releases/tag/1.0.0
+[unreleased]: https://github.com/collabpl/magento2-module-checkout-billing-at-shipping/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/collabpl/magento2-module-checkout-billing-at-shipping/compare/1.0.0...1.0.1
+[1.0.0]: https://github.com/collabpl/magento2-module-checkout-billing-at-shipping/releases/tag/1.0.0
