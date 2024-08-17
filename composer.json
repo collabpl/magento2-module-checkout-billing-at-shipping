@@ -1,6 +1,6 @@
 {
     "name": "collab/module-checkout-billing-at-shipping",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Magento 2 module which lets You move billing address form below shipping address form",
     "type": "magento2-module",
     "authors": [
