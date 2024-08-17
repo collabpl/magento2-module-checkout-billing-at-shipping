@@ -1,0 +1,23 @@
+{
+  "name": "magento2-module-checkout-billing-at-shipping",
+  "version": "1.0.0",
+  "description": "The Collab_CheckoutBillingAtShipping module allows You to move the billing address form just below the shipping address form on the checkout page.",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-uglify": "^5.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collabpl/magento2-module-checkout-billing-at-shipping.git"
+  },
+  "author": "Marcin Jędrzejewski <m.jedrzejewski@collab.pl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/collabpl/magento2-module-checkout-billing-at-shipping/issues"
+  },
+  "homepage": "https://github.com/collabpl/magento2-module-checkout-billing-at-shipping#readme"
+}
