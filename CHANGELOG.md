@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 ### Changed
 
+## 1.1.0 - 2025-07-28
+### Changed
+- Revert for source js files minification
+
 ## 1.0.1 - 2024-08-17
 ### Added
 - Grunt config with task for source js files minification
@@ -20,5 +24,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release
 
 [unreleased]: https://github.com/collabpl/magento2-module-checkout-billing-at-shipping/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/collabpl/magento2-module-checkout-billing-at-shipping/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/collabpl/magento2-module-checkout-billing-at-shipping/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/collabpl/magento2-module-checkout-billing-at-shipping/releases/tag/1.0.0
